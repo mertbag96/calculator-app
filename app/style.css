@@ -91,7 +91,7 @@ body {
     border-radius: .25rem;
     padding: .5rem 1rem .25rem 1rem;
     margin-bottom: 1.25rem;
-    min-height: 80px;
+    min-height: 84px;
     width: 100%;
     font-size: 3rem;
     color: #eeeeee;
@@ -192,4 +192,78 @@ body {
 
 .light-theme .container .calculator .body .operation {
     background-color: #cc9406;
+}
+
+/* Responsive */
+
+@media only screen and (max-width: 500px) {
+
+    .container {
+        max-width: 360px;
+    }
+
+    .container .calculator {
+        padding: 1.5rem;
+    }
+
+    .container .calculator .menu {
+        margin-bottom: 1rem;
+    }
+
+    .container .calculator .theme-buttons button {
+        padding: .25rem .5rem;
+        font-size: 14px;
+    }
+
+    .container .calculator .time {
+        font-size: 20px;
+    }
+
+    .container .calculator .screen {
+        margin-bottom: .25rem;
+        min-height: 60px;
+        font-size: 2rem;
+    }
+
+    .container .calculator .body button {
+        padding: 1.25rem .25rem;
+        width: 21%;
+    }
+
+}
+
+@media only screen and (max-width: 365px) {
+
+    .container {
+        max-width: 320px;
+    }
+
+}
+
+@media only screen and (max-width: 350px) {
+
+    .container {
+        max-width: 280px;
+    }
+
+    .container .calculator {
+        border-radius: 1rem;
+        padding: 1rem;
+    }
+
+    .container .calculator .time {
+        font-size: 18px;
+    }
+
+    .container .calculator .screen {
+        min-height: 50px;
+        font-size: 1.5rem;
+    }
+
+    .container .calculator .body button {
+        padding: .75rem .25rem;
+        width: 21%;
+        font-size: 1rem;
+    }
+
 }
